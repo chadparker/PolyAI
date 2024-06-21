@@ -17,8 +17,8 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/jamesrochabrun/SwiftOpenAI", branch: "main"),
-        .package(url: "https://github.com/jamesrochabrun/SwiftAnthropic", branch: "main"),
+        .package(url: "https://github.com/chadparker/SwiftOpenAI", branch: "main"),
+        .package(url: "https://github.com/chadparker/SwiftAnthropic", branch: "main"),
         .package(url: "https://github.com/google/generative-ai-swift", branch: "main"),
     ],
     targets: [
